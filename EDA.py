@@ -6,7 +6,7 @@ from PIL import Image
 import time
 import webbrowser
 
-st.set_page_config(layout="wide")  # For setting wide page configuration
+st.set_page_config(page_title = "Engage-Data-Analysis", page_icon = "❄️" ,layout="wide")  # For setting wide page configuration
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}        #For hiding the menu bar
 footer {visibility: hidden;}
