@@ -5,6 +5,3 @@ seaborn
 sklearn
 scikit-learn 
 streamlit
-cufflinks
-pickle
-
