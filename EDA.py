@@ -7,10 +7,6 @@ import time
 import webbrowser
 
 st.set_page_config(page_title = "Engage-Data-Analysis", page_icon = "❄️" ,layout="wide")  # For setting wide page configuration
-st.markdown(""" <style>
-#MainMenu {visibility: hidden;}        #For hiding the menu bar
-footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)
 
 padding = 0
 st.markdown(f""" <style>
@@ -31,6 +27,8 @@ with col1:
     with col2:
         st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',
                         unsafe_allow_html=True)
+url1 = 'https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py'
+url2 = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py'
 col1, col2 = st.sidebar.columns([1, 10])
 with col1:
     st.image(
@@ -42,7 +40,7 @@ with col1:
     with col2:
         button2 = st.button('Data Visualization')
         if button2:
-            webbrowser.open_new_tab("https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py")
+            webbrowser.open_new_tab(url1)
 with col1:
     st.image("https://media.istockphoto.com/vectors/report-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001207390?k=20&m=1001207390&s=170667a&w=0&h=9sctNa8KvgTkKq6dlatFqZElGgsS2lcmaraUES137pw=", width=35)
     with col2:
@@ -53,7 +51,7 @@ with col1:
     with col2:
         button4 = st.button('Car Price Predictor')
         if button4:
-            webbrowser.open_new_tab("https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py")
+            webbrowser.open_new_tab(url2)
 col1, col2 = st.sidebar.columns([1,12.5])
 with col1:
     st.image("https://hoima.go.ug/wp-content/uploads/2021/09/662-6627316_person-icon-transparent-background-hd-png-download.png", width=30)
