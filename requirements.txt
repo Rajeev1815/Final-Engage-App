@@ -6,3 +6,4 @@ matplotlib
 plotly
 plotly-express
 webbrowser
+pip==22.1.1
