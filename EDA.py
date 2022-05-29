@@ -38,7 +38,7 @@ with col1:
 with col1:
     st.image("https://cdn3.vectorstock.com/i/1000x1000/94/42/data-icon-on-white-background-simple-element-from-vector-28229442.jpg", width=35)
     with col2:
-        button2 = st.button('Data Visualization', on_click = 'https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py' )
+        button2 = st.button('Data Visualization', key = "https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py" )
 with col1:
     st.image("https://media.istockphoto.com/vectors/report-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001207390?k=20&m=1001207390&s=170667a&w=0&h=9sctNa8KvgTkKq6dlatFqZElGgsS2lcmaraUES137pw=", width=35)
     with col2:
@@ -47,7 +47,7 @@ with col1:
 with col1:
     st.image("https://cdn.vectorstock.com/i/1000x1000/68/44/car-logo-with-circle-hand-colorful-logo-vector-22266844.webp", width=35)
     with col2:
-        button4 = st.button('Car Price Predictor', on_click = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py')
+        button4 = st.button('Car Price Predictor', key = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py')
             
 col1, col2 = st.sidebar.columns([1,12.5])
 with col1:
